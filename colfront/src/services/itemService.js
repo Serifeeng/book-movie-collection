@@ -1,0 +1,35 @@
+import api from './api';
+
+const itemService = {
+  getItems: async (params = {}) => {
+    const response = await api.get('/items', { params });
+    return response.data;
+  },
+
+  getItemById: async (id) => {
+    const response = await api.get(`/items/${id}`);
+    return response.data;
+  },
+
+  createItem: async (itemData) => {
+    const response = await api.post('/items', itemData);
+    return response.data;
+  },
+
+  updateItem: async (id, itemData) => {
+    const response = await api.put(`/items/${id}`, itemData);
+    return response.data;
+  },
+
+  deleteItem: async (id) => {
+    const response = await api.delete(`/items/${id}`);
+    return response.data;
+  },
+
+  getStats: async () => {
+    const response = await api.get('/items/stats');
+    return response.data;
+  }
+};
+
+export default itemService;
