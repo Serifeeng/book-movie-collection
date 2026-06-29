@@ -1,6 +1,6 @@
-# 📚🎬 Cozy Kawaii Book & Movie Collection Manager
+# 📚🎬 Book & Movie Collection Manager
 
-A beautiful, modular, and responsive full-stack application designed to organize, track, and rate your favorite books and movies. Features a security gateway with JWT-based authentication and a cozy kawaii pixel-art design system utilizing warm pastel colors and retro window widgets.
+A beautiful, modular, and responsive full-stack application designed to organize, track, and rate your favorite books and movies. Features a security gateway with JWT-based authentication
 
 ## ✨ Features
 
